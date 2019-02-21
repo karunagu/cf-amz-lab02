@@ -9,11 +9,11 @@ console.log ('Guess (Y/N) : ', guess);
 var correct = 0;
 var total = 0;
 if (guess === 'Y' || guess === 'y' ) {
-    var drink = prompt ('What is my favorite drink?');
+    var drink = prompt ('What is my favorite Drink?');
     console.log ('Drinks : ', drink);
     total++;
     if (drink.toLowerCase() === 'pepsi'){
-        alert ('Yes, you are correct, my favorite drink is '+ drink);
+        alert ('Yes, You are correct, my favorite drink is '+ drink);
         correct++;
     }                   
     else {
